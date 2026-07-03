@@ -1,0 +1,84 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# macOS
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+
+# -----------------------------
+# Python Packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------------
+# Test Coverage
+# -----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Cache
+# -----------------------------
+.cache/
+
+# -----------------------------
+# Data
+# -----------------------------
+# Keep processed data ignored
+data/processed/*
+
+# Keep raw downloaded data ignored
+data/raw/*
+
+# But keep folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# -----------------------------
+# Models
+# -----------------------------
+models/
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+*.tmp
+*.swp
